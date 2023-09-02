@@ -1,0 +1,19 @@
+declaracao equipe
+    nome: piplup,
+    tipo: drake,
+    poder: 40,
+fim equipe
+
+declaracao equipe
+    nome: classico,
+    tipo: drake,
+    poder: 200,
+fim equipe
+
+dragao chefe
+    nome: treecko,
+    tipo: lindwrum,
+    poder: 150,
+fim chefe
+
+Lutar(charmeleon)

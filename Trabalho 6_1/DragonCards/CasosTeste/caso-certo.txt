@@ -1,0 +1,19 @@
+declaracao equipe
+    nome: piplup,
+    tipo: wyvern,
+    poder: 151,
+fim equipe
+
+declaracao equipe
+    nome: ponyta,
+    tipo: oriental,
+    poder: 200,
+fim equipe
+
+dragao chefe
+    nome: treecko,
+    tipo: classico,
+    poder: 150,
+fim chefe
+
+Lutar(piplup)

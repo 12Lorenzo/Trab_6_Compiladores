@@ -1,0 +1,19 @@
+pokemon equipe
+    nome: piplup
+    tipo: agua,
+    vida: 40,
+fim equipe
+
+pokemon equipe
+    nome: ponyta,
+    tipo: fogo,
+    vida: 200,
+fi equipe
+
+pokemon selvagem
+    nome: treecko,
+    tipo: grama,
+    vida: 150,
+fim selvagem
+
+Lutar(piplup)
