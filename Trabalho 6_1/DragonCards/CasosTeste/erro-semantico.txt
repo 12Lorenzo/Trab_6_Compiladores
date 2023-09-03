@@ -1,14 +1,14 @@
-dragao equipe
+dragao card
     nome: drag,
     tipo: drake,
     poder: 40,
-fim equipe
+fim card
 
-dragao equipe
+dragao card
     nome: Shenlong,
     tipo: oriental,
     poder: 200,
-fim equipe
+fim card
 
 dragao chefe
     nome: Smaug,

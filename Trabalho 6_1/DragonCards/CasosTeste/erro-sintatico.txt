@@ -1,14 +1,14 @@
-dragao equipe
+dragao card
     nome: viserion,
     tipo: wyvern,
     poder: 151,
-fim equipe
+fim card
 
-dragao equipe
+dragao card
     nome: sehn-long,
     tipo: oriental,
     poder: 200,
-fim equipe
+fim card
 
 dragao chefe
     nome: DragaoBranco,
@@ -16,4 +16,4 @@ dragao chefe
     poder: 150,
 fim chefe
 
-Lutar(viserion)
+Lutar(Ling)

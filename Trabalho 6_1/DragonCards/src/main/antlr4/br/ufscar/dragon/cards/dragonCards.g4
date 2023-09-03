@@ -1,7 +1,7 @@
 grammar dragonCards;
 
 PalavrasChave:
-    'nome' | 'tipo' | 'nivel' | 'poder' | 'lutar' | 'proxima' | 'desistir'
+    'nome' | 'tipo' | 'nivel' | 'poder' | 'lutar' | 'proxima' |
     'dragao equipe' | 'fim equipe' | 'dragao chefe' | 'fim chefe';
 
 // Separação entre itens e classes
@@ -37,11 +37,11 @@ programa: corpo <EOF>;
 corpo: declaracao_equipe+ declaracao_chefe acao+;
 
 declaracao_equipe:
-    'dragao equipe'
+    'dragao card'
         'nome' ':' Nome ','
         'tipo' ':' Tipo ','
         'poder' ':' Poder ','
-    'fim equipe';
+    'fim card';
 
 declaracao_chefe:
     'dragao chefe'
@@ -51,15 +51,13 @@ declaracao_chefe:
     'fim chefe';
 
 acao:
-    cmdLutar | cmdDesistir | cmdProxima;
+    cmdLutar | cmdProxima;
     
 cmdLutar:
     'Lutar' '(' Nome ')';
 
 cmdProxima:
     'Proxima' '(' Nome ')'; 
-    
-cmdDesistir:
-    'Desistir';
+
 
 

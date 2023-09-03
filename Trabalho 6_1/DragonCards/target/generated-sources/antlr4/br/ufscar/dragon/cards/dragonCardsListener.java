@@ -77,14 +77,4 @@ public interface dragonCardsListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitCmdProxima(dragonCardsParser.CmdProximaContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link dragonCardsParser#cmdDesistir}.
-	 * @param ctx the parse tree
-	 */
-	void enterCmdDesistir(dragonCardsParser.CmdDesistirContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link dragonCardsParser#cmdDesistir}.
-	 * @param ctx the parse tree
-	 */
-	void exitCmdDesistir(dragonCardsParser.CmdDesistirContext ctx);
 }

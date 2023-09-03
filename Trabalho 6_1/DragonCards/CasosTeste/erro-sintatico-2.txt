@@ -1,10 +1,10 @@
-dragao equipe
+dragao card
     nome: viserion,
     tipo: wyvern,
     poder: 151,
-fim equipe
+fim ca
 
-dragao equipe
+dragao card
     nome: sehn-long,
     tipo: oriental,
     poder: 200,

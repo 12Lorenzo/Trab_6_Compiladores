@@ -158,10 +158,10 @@ public class DragonCardsSemantico extends dragonCardsBaseVisitor<Void>{
     public Void visitCmdLutar(dragonCardsParser.CmdLutarContext ctx){
         //@TODO
         String nomeCard = ctx.Nome().getText();
-        System.out.println("Entrei no visitCmdLutar. " + acao);
+        //System.out.println("Entrei no visitCmdLutar. " + acao);
         if(tabela.existe(nomeCard)){
             int codigo = tabela.verificarCodigo(nomeCard);
-            System.out.println("O codigo: " + codigo);
+            //System.out.println("O codigo: " + codigo);
             if(codigo != 1){
                 acao = "Erro";
                 GeradorHTML.AddComando(acao);
@@ -196,7 +196,7 @@ public class DragonCardsSemantico extends dragonCardsBaseVisitor<Void>{
     @Override
     public Void visitCmdProxima(dragonCardsParser.CmdProximaContext ctx) {
         String nome = ctx.Nome().getText();
-        System.out.println("Entrei no visitCmdProxima. " + acao);
+        //System.out.println("Entrei no visitCmdProxima. " + acao);
         if(tabela.existe(nome)){
             int codigo = tabela.verificarCodigo(nome);
             if(codigo == 1){
@@ -215,7 +215,7 @@ public class DragonCardsSemantico extends dragonCardsBaseVisitor<Void>{
                         "O " + nome + " não pode ser o proximo!</div>\n");
                 }
                 else{
-                    acao = "Trocar";
+                    acao = "Proxima";
                     GeradorHTML.AddComando(acao);
                 }
             }
@@ -228,6 +228,8 @@ public class DragonCardsSemantico extends dragonCardsBaseVisitor<Void>{
         }
         return super.visitCmdProxima(ctx);
     }
+
+    
 
     /* 
     @Override

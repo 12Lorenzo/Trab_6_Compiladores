@@ -10,7 +10,7 @@ Nome: Lorenzo Correia Maia RA: 759502
 
 <div>
 
-A ideia desse projeto é a de ser uma linguagem em que você irá jogar super trunfo, em que terá um um super card para tentar derrotar.
+A ideia desse projeto é a de ser uma linguagem em que você irá jogar super trunfo personalizado, em que terá um um super card para tentar derrotar.
 
 </div>
 

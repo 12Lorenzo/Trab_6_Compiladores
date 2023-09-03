@@ -96,18 +96,6 @@ public class dragonCardsBaseListener implements dragonCardsListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitCmdProxima(dragonCardsParser.CmdProximaContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterCmdDesistir(dragonCardsParser.CmdDesistirContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitCmdDesistir(dragonCardsParser.CmdDesistirContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

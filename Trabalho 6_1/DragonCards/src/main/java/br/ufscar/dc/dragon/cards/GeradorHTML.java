@@ -135,32 +135,32 @@ public class GeradorHTML {
             arquivo.append(divDragon.get(i));
         }
         //comando = "Lutar";
-        System.out.println(comando);
+        //System.out.println(comando);
         if("Lutar".equals(comando)){
                 if(poderEquipe>poderChefe){
                     arquivo.append("<td><div id=\"erros\">"
-                    + "<h1><font color=\"#74e72e\" font-family: 'Courier New'>"
+                    + "<h1><font color=\"#FFFFFF\" font-family: 'Courier New'>"
                     + "Você venceu! \n <br><br>");
                 }
                 else{
                     if(poderEquipe != 0){
                         arquivo.append("<td><div id=\"erros\">"
-                        + "<h1><font color=\"#74e72e\" 	font-family: 'Courier New'>" 
+                        + "<h1><font color=\"#FFFFFF\" 	font-family: 'Courier New'>" 
                         + "Você perdeu! \n <br><br>" );
                     }
                 }
         }
         else{
-            if("Trocar".equals(comando)){
+            if("Proxima".equals(comando)){
                 arquivo.append("<td><div id=\"erros\">"
-                        + "<h1><font color=\"#74e72e\" 	font-family: 'Courier New'>" 
-                        + "Você Trocou! \n <br><br>" );
+                        + "<h1><font color=\"#FFFFFF\" 	font-family: 'Courier New'>" 
+                        + "Você Trocou o card! \n <br><br>" );
             }
             else{
                 if(comando != "Erro"){
                     arquivo.append("<td><div id=\"erros\">"
-                        + "<h1><font color=\"#74e72e\" 	font-family: 'Courier New'>" 
-                        + "Você Fugiu! :0 \n <br><br>" );
+                        + "<h1><font color=\"#FFFFFF\" 	font-family: 'Courier New'>" 
+                        + "Erro na geração! \n <br><br>" );
                 }
             }
                 

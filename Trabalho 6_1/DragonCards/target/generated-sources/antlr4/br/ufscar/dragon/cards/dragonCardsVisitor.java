@@ -52,10 +52,4 @@ public interface dragonCardsVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitCmdProxima(dragonCardsParser.CmdProximaContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link dragonCardsParser#cmdDesistir}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitCmdDesistir(dragonCardsParser.CmdDesistirContext ctx);
 }

@@ -1,20 +1,4 @@
-dragao equipe
-    nome: Viserion,
-    tipo: wyvern,
-    poder: 151,
-fim equipe
 
-dragao equipe
-    nome: Sehn,
-    tipo: oriental,
-    poder: 200,
-fim equipe
 
-dragao chefe
-    nome: DragaoBranco,
-    tipo: classico,
-    poder: 150,
-fim chefe
 
-Lutar(Viserion)
 
