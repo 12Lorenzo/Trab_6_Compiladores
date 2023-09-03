@@ -48,25 +48,29 @@ public class GeradorHTML {
                 "            td {\n" +
                 "                vertical-align: top;\n" +
                 "            }\n" +
-                "            #box {\n" +
-                "                align:center; \n"+
-                "                margin-left: 500px;\n" +
-                "                width: 400px;\n" +
-                "                min-height: 600px;\n" +
-                "                max-height: 1500px;\n" +
-                "                border-style: solid;\n" +
-                "                border-color: #A0522D;\n" +
-                "                border-width: thin;\n" +
-                "                border-radius: 10px;\n" +
-                "                margin: 10px;\n" +
-                "                padding: 10px;\n" +
-                "                text-align: center;\n" +
-                "                color: #74e72e;\n" +
-                "                font-family: Courier New;\n" +
-                "                font-weight: bold;\n" +
-                "                background-image: url('https://a-static.mlcdn.com.br/450x450/moldura-30x40-em-madeira-laqueada-preta-puig-frames/olistplus/opmtds8qxfzl4xco/75bb3500bfb1df39dfa5c1436e91803f.jpeg');\n" +
-                "                background-size: cover;\n" +
-                "            }\n" +
+                "            .box {" +
+                            "    text-align: center; " +
+                            "    color: #74e72e; " +
+                            "    font-family: Courier New; " +
+                            "    font-weight: bold; " +
+                            "    background-image: url('https://a-static.mlcdn.com.br/450x450/moldura-30x40-em-madeira-laqueada-preta-puig-frames/olistplus/opmtds8qxfzl4xco/75bb3500bfb1df39dfa5c1436e91803f.jpeg');" +
+                            "    background-size: cover; " +
+                            "    padding: 10px;" +
+                            "    border: thin solid #A0522D;" +
+                            "    border-radius: 10px;" +
+                            "    margin: 10px;" +
+                            "    width: 400px;" +
+                            "   }" +
+                            "   .box img {" +
+                            "    width: 250px;" +
+                            "    height: 250px;" +
+                            "   }" +
+                            ".box p {" +
+                            "    margin: 0;" +
+                            "}" +
+                            ".name {" +
+                            "    font-size: 20px;" +
+                            "}\n" +
                 "\n" +
                 "            #erros {\n" +
                 "                margin: 0 auto;\n" +
@@ -109,7 +113,8 @@ public class GeradorHTML {
                 "         \n" +
                 "    <body>\n" +
                 "        <table>\n" +
-                "            <tr>\n");    }
+                "            <tr>\n");    
+    }
     
 
     public static void adicionaDiv(String info) {
@@ -135,13 +140,13 @@ public class GeradorHTML {
                 if(poderEquipe>poderChefe){
                     arquivo.append("<td><div id=\"erros\">"
                     + "<h1><font color=\"#74e72e\" font-family: 'Courier New'>"
-                    + "Você venceu! :D \n <br><br>");
+                    + "Você venceu! \n <br><br>");
                 }
                 else{
                     if(poderEquipe != 0){
                         arquivo.append("<td><div id=\"erros\">"
                         + "<h1><font color=\"#74e72e\" 	font-family: 'Courier New'>" 
-                        + "Você perdeu! :( \n <br><br>" );
+                        + "Você perdeu! \n <br><br>" );
                     }
                 }
         }

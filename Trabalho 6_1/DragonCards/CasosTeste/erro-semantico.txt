@@ -1,19 +1,19 @@
-declaracao equipe
-    nome: piplup,
+dragao equipe
+    nome: drag,
     tipo: drake,
     poder: 40,
 fim equipe
 
-declaracao equipe
-    nome: classico,
-    tipo: drake,
+dragao equipe
+    nome: Shenlong,
+    tipo: oriental,
     poder: 200,
 fim equipe
 
 dragao chefe
-    nome: treecko,
+    nome: Smaug,
     tipo: lindwrum,
     poder: 150,
 fim chefe
 
-Lutar(charmeleon)
+Lutar(char)

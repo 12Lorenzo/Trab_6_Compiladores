@@ -34,6 +34,7 @@ public class MyErrorCustomListener implements ANTLRErrorListener{
     public void	syntaxError(Recognizer<?,?> recognizer, Object offendingSymbol, int line, int charPositionInLine, String msg, RecognitionException e) {
         // Verifica o token que ocorreu o erro
         Token t = (Token) offendingSymbol;
+        int lineNumber = line;
          
         switch(dragonCardsLexer.VOCABULARY.getDisplayName(t.getType())) {
             // Verifica erros gerais que não são especificados por nenhuma outra regra léxica

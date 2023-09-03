@@ -1,19 +1,19 @@
-pokemon equipe
-    nome: piplup
-    tipo: agua,
-    vida: 40,
+dragao equipe
+    nome: viserion,
+    tipo: wyvern,
+    poder: 151,
 fim equipe
 
-pokemon equipe
-    nome: ponyta,
-    tipo: fogo,
-    vida: 200,
-fi equipe
+dragao equipe
+    nome: sehn-long,
+    tipo: oriental,
+    poder: 200,
+fim equipe
 
-pokemon selvagem
-    nome: treecko,
-    tipo: grama,
-    vida: 150,
-fim selvagem
+dragao chefe
+    nome: DragaoBranco,
+    tipo: classico,
+    poder: 150,
+fim chefe
 
-Lutar(piplup)
+Lutar(viserion)

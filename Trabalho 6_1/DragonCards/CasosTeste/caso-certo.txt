@@ -1,19 +1,20 @@
-declaracao equipe
-    nome: piplup,
+dragao equipe
+    nome: Viserion,
     tipo: wyvern,
     poder: 151,
 fim equipe
 
-declaracao equipe
-    nome: ponyta,
+dragao equipe
+    nome: Sehn,
     tipo: oriental,
     poder: 200,
 fim equipe
 
 dragao chefe
-    nome: treecko,
+    nome: DragaoBranco,
     tipo: classico,
     poder: 150,
 fim chefe
 
-Lutar(piplup)
+Lutar(Viserion)
+
