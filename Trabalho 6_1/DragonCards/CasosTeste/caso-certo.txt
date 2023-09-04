@@ -1,4 +1,19 @@
+dragao card
+    nome: Richard,
+    tipo: drake,
+    poder: 1500,
+fim card
 
+dragao card
+    nome: Nilto,
+    tipo: classico,
+    poder: 150,
+fim card
 
+dragao chefe
+    nome: Sayu,
+    tipo: oriental,
+    poder: 500,
+fim chefe
 
-
+Lutar(Richard)

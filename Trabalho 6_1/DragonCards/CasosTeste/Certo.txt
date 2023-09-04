@@ -1,0 +1,19 @@
+dragao card
+    nome: Shen,
+    tipo: oriental,
+    poder: 140,
+fim card
+
+dragao card
+    nome: Viserion,
+    tipo: classico,
+    poder: 90,
+fim card
+
+dragao chefe
+    nome: Dragon,
+    tipo: drake,
+    poder: 130,
+fim chefe
+
+Proxima(Viserion)

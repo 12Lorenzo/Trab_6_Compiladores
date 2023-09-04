@@ -14,6 +14,12 @@ A ideia desse projeto é a de ser uma linguagem em que você irá jogar super tr
 
 </div>
 
+<div>
+
+[Assista ao vídeo](https://www.youtube.com/watch?v=bexShOpsQlw&t=5s)
+
+</div>
+
 ## Requisitos prévios
 Estes são os requisitos para execução e compilação do projeto: **Java** e **Maven**.
 

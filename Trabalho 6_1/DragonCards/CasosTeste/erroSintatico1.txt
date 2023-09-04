@@ -1,0 +1,19 @@
+dragao card
+    nome: viserion,
+    tipo: wyvern,
+    poder: 151,
+fim card
+
+dragao card
+    nome: sehn-long,
+    tipo: oriental,
+    poder: 200,
+fim card
+
+dragao chefe
+    nome: DragaoBranco,
+    tipo: classico,
+    poder: 150,
+fim chefe
+
+Lutar(Ling)

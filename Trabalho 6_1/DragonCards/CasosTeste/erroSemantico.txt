@@ -1,0 +1,19 @@
+dragao card
+    nome: drag,
+    tipo: drake,
+    poder: 40,
+fim card
+
+dragao card
+    nome: Shenlong,
+    tipo: oriental,
+    poder: 200,
+fim card
+
+dragao chefe
+    nome: Smaug,
+    tipo: lindwrum,
+    poder: 150,
+fim chefe
+
+Lutar(char)
